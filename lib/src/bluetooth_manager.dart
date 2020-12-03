@@ -7,7 +7,7 @@ import 'bluetooth_device.dart';
 
 /// A BluetoothManager.
 class BluetoothManager {
-  static const String NAMESPACE = 'flutter_bluetooth_basic';
+  static const String NAMESPACE = 'flutter_bluetooth_brazilian';
   static const int CONNECTED = 1;
   static const int DISCONNECTED = 0;
 

@@ -2,7 +2,7 @@
 #import <CoreBluetooth/CoreBluetooth.h>
 #import "ConnecterManager.h"
 
-#define NAMESPACE @"flutter_bluetooth_basic"
+#define NAMESPACE @"flutter_bluetooth_brazilian"
 
 @interface FlutterBluetoothBasicPlugin : NSObject<FlutterPlugin, CBCentralManagerDelegate, CBPeripheralDelegate>
 @property(nonatomic,copy)ConnectDeviceState state;

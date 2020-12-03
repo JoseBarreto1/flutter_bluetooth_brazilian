@@ -7,7 +7,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="flutter_bluetooth_basic_example"
+        android:label="flutter_bluetooth_brazilian_example"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

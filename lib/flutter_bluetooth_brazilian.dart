@@ -1,5 +1,5 @@
 /*
- * flutter_bluetooth_basic
+ * flutter_bluetooth_brazilian
  * Created by Andrey U.
  * 
  * See LICENSE for distribution and usage details.
