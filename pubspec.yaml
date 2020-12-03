@@ -1,0 +1,30 @@
+name: flutter_bluetooth_brazilian
+description: Flutter bluetooth 
+version: 0.0.1
+author: José Barreto <jbarretosantosjr@gmail.com>
+homepage: https://github.com/JoseBarreto1/flutter_bluetooth_brazilian
+
+environment:
+  sdk: ">=2.3.0 <3.0.0"
+  flutter: ">=1.12.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  json_annotation: ^3.0.1
+  rxdart: ^0.24.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.0.0
+  json_serializable: ^3.2.2
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.flutter_bluetooth_brazilian
+        pluginClass: FlutterBluetoothBasicPlugin
+      ios:
+        pluginClass: FlutterBluetoothBasicPlugin
